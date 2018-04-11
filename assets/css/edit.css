@@ -1,0 +1,51 @@
+ul {
+  list-style: none;
+}
+
+.project-list-item {
+  text-decoration: none;
+}
+
+.item {
+  background-color: #ffffff;
+  height: 122px;
+  padding: 10px 0px 10px 8px;
+  display: flex;
+}
+
+.list-item-avatar {
+  height: auto;
+  padding: 0;
+}
+
+.list-item-avatar img {
+    height: 103px;
+    width: 103px;
+
+}
+
+.list-item-details {
+  padding-left: 20px;
+}
+
+.list-item-details h1 {
+
+  font-size: 25px;
+  margin: 0;
+  color: #000000;
+}
+
+.list-item-details p {
+  color: #000000;
+}
+
+.list-item-actions {
+  float: right;
+  overflow: hidden;
+}
+
+.list-item-actions .button {
+  color: #000000;
+  box-shadow: inset 0 0 0 2px #000000;
+  float: left; 
+}
